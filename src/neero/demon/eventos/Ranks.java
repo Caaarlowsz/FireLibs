@@ -1,8 +1,9 @@
 package neero.demon.eventos;
+
 import org.bukkit.entity.Player;
 
 public class Ranks {
-	
+
 	public static String getRank(Player p) {
 		Integer money = Dinheiro.getMoney(p);
 		String rank = "";
@@ -77,4 +78,3 @@ public class Ranks {
 		return rank;
 	}
 }
-
